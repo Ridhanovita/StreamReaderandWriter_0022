@@ -14,5 +14,10 @@ int main()
         cout<<data.at(5)<<endl;
         // memanggil array elemen ke 5
     }
+    catch (exception& e) {
+        // penangkapan menggunakan obyek exception
+        cout << e.what() << endl;
+        /*akan dieksekusi karena array data hanya memiliki 3 elemen*/
+    }
     
 }
